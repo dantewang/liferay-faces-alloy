@@ -118,20 +118,8 @@ public class SplitCommandButton extends SplitCommandButtonCompat {
 	}
 
 	@Override
-	@SuppressWarnings("deprecation")
-	public jakarta.faces.el.MethodBinding getAction() {
-		return getWrappedCommandButton().getAction();
-	}
-
-	@Override
 	public MethodExpression getActionExpression() {
 		return getWrappedCommandButton().getActionExpression();
-	}
-
-	@Override
-	@SuppressWarnings("deprecation")
-	public jakarta.faces.el.MethodBinding getActionListener() {
-		return getWrappedCommandButton().getActionListener();
 	}
 
 	@Override
@@ -410,12 +398,6 @@ public class SplitCommandButton extends SplitCommandButtonCompat {
 		return getWrappedCommandButton().getValue();
 	}
 
-	@SuppressWarnings("deprecation")
-	@Override
-	public jakarta.faces.el.ValueBinding getValueBinding(String name) {
-		return getWrappedCommandButton().getValueBinding(name);
-	}
-
 	@Override
 	public ValueExpression getValueExpression(String name) {
 		return getWrappedCommandButton().getValueExpression(name);
@@ -533,20 +515,8 @@ public class SplitCommandButton extends SplitCommandButtonCompat {
 	}
 
 	@Override
-	@SuppressWarnings("deprecation")
-	public void setAction(jakarta.faces.el.MethodBinding action) {
-		getWrappedCommandButton().setAction(action);
-	}
-
-	@Override
 	public void setActionExpression(MethodExpression actionExpression) {
 		getWrappedCommandButton().setActionExpression(actionExpression);
-	}
-
-	@Override
-	@SuppressWarnings("deprecation")
-	public void setActionListener(jakarta.faces.el.MethodBinding actionListener) {
-		getWrappedCommandButton().setActionListener(actionListener);
 	}
 
 	@Override
@@ -726,12 +696,6 @@ public class SplitCommandButton extends SplitCommandButtonCompat {
 	@Override
 	public void setValue(Object value) {
 		getWrappedCommandButton().setValue(value);
-	}
-
-	@SuppressWarnings("deprecation")
-	@Override
-	public void setValueBinding(String name, jakarta.faces.el.ValueBinding binding) {
-		getWrappedCommandButton().setValueBinding(name, binding);
 	}
 
 	@Override

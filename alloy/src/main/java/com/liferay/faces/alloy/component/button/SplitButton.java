@@ -396,12 +396,6 @@ public class SplitButton extends SplitButtonCompat {
 		return getWrappedButton().getValue();
 	}
 
-	@SuppressWarnings("deprecation")
-	@Override
-	public jakarta.faces.el.ValueBinding getValueBinding(String name) {
-		return getWrappedButton().getValueBinding(name);
-	}
-
 	@Override
 	public ValueExpression getValueExpression(String name) {
 		return getWrappedButton().getValueExpression(name);
@@ -700,12 +694,6 @@ public class SplitButton extends SplitButtonCompat {
 	@Override
 	public void setValue(Object value) {
 		getWrappedButton().setValue(value);
-	}
-
-	@SuppressWarnings("deprecation")
-	@Override
-	public void setValueBinding(String name, jakarta.faces.el.ValueBinding binding) {
-		getWrappedButton().setValueBinding(name, binding);
 	}
 
 	@Override
